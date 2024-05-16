@@ -3,12 +3,224 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="portefolio.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>DocumentMon-portefolio</title>
+    <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="portefolio.css">
+    <title>Mon-portefolio</title>
 </head>
 <body>
+    <header id="header" class="">
+        <!-- <div class="container "> -->
     
+          <div id="logo" class=" ">
+            <!-- <div class="bg-danger me-3 h-100 d-flex align-items-center"><div class="circl"></div></div> -->
+            <div class=" d-flex  align-items-center ">
+              <h5 ><a href="index.html" class="text-decoration-none  ">Gorgui Amadem Fall</a></h5>
+            </div>
+          </div>
+    
+          <nav id="navbar" class="navbar">
+            <ul class=" h-100">
+              <li><a class="nav-link scrollto active" href="#hero"> Accueil</a></li>
+              <li><a class="nav-link scrollto" href="#about">A propos</a></li>
+              <li><a class="nav-link scrollto" href="#services">Services</a></li>
+              <li><a class="nav-link scrollto " href="#portfolio">Projets</a></li>
+              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav>
+      </header>
+      <main >
+        <section class="home-section" >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-5 py-4 mx-0" >
+                <div id="imageprofil" class="">
+                  <img class="" src="assets/image/photo-profil.png" alt="">
+                </div>
+              </div>
+              <div class="col-lg-7 py-4 home-text text-start px-3">
+                <h1 class="py-3 ">Papa Gorgui Amadem Fall</h1>
+                <h6 class="">Je suis un développeur  web spécialisé dans la conception d’interface utilisateur et le développement</h6>
+                <div class="home-skill py-3">
+                <div class="row">
+                  <div class="col-lg-6 d-flex">
+                    <div class="smallcircl"></div>
+                    <h6 class="ms-3">DEVELOPPEUR FRONTEND </h6>
+                  </div>
+                  <div class="col-lg-6 d-flex">
+                    <div class="smallcircl"></div>
+                    <h6 class="ms-3">UI/UX DESIGNER</h6>
+                  </div>
+                </div>
+                </div>
+                <div class="home-link bg-blackpy-2">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div  class="lincontainer">
+                        <i class="bi bi-github"></i>
+                        <a href="" class=" ms-2">Github</a>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div  class="lincontainer">
+                        <i class="bi bi-envelope-at-fill"></i>
+                        <a href="" class="ms-2">Email</a>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="lincontainer">
+                        <i class="bi bi-linkedin"></i>
+                        <a href="" class="ms-2">Linkedin</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+        <section class="about-section my-5">
+          <div class="section-title text-center mt-5">
+            <h2> A propos de moi</h2>
+          </div>
+          <div class="container w-75 mt-5">
+            <p class="">
+              Je suis un développeur web Frontend et un designer UI/UX passionné par mon travail, avec de solides compétences dans la conception et la création d’interfaces utilisateur modernes et réactives.
+            </p>
+            <p class="">
+              Doté de solide base en HTML, CSS, Javascript, ces derniers combinés avec une maitrise de Framework modernes tels que Angular, ReactJs, me permettent de construire des applications robustes et adaptables. 
+              Expérimenté dans l’utilisation de Figma pour la conception UI/UX. Je transforme les concepts de design en solutions digitales réels pour améliorer la vie de nos utilisateurs
+            </p>
+          </div>
+        </section>
+        <section class="service-section my-4">
+          <div class="section-title text-center mt-5">
+            <h2> Mes services</h2>
+          </div>
+          <div class="container">
+            <div class="row mt-4">
+              <div class="col-lg-4" id="card-service">
+                <div class="card" style="width: 18rem;">
+                  <div class="top mt-3 d-flex justify-content-center">
+                    <div class="icone-service ">
+                      <i class="bi bi-code-slash"></i>
+                    </div>
+                  </div>
+                  <div class="card-body mt-2">
+                    <h6 class="card-title fw-bold">DEVELOPPEMENT FRONTEND</h6>
+                    <p class="card-text text-center mt-3">Création de sites web responsive et optimisés.Création de sites web responsive et optimisés.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4" id="card-service">
+                <div class="card" style="width: 18rem;">
+                  <div class="top mt-3 d-flex justify-content-center">
+                    <div class="icone-service ">
+                      <i class="bi bi-code-slash"></i>
+                    </div>
+                  </div>
+                  <div class="card-body mt-2">
+                    <h6 class="card-title fw-bold">DEVELOPPEMENT FRONTEND</h6>
+                    <p class="card-text text-center mt-3">Création de sites web responsive et optimisés.Création de sites web responsive et optimisés.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4" id="card-service">
+                <div class="card" style="width: 18rem;">
+                  <div class="top mt-3 d-flex justify-content-center">
+                    <div class="icone-service ">
+                      <i class="bi bi-code-slash"></i>
+                    </div>
+                  </div>
+                  <div class="card-body mt-2">
+                    <h6 class="card-title fw-bold">DEVELOPPEMENT FRONTEND</h6>
+                    <p class="card-text text-center mt-3">Création de sites web responsive et optimisés.Création de sites web responsive et optimisés.</p>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            
+          </div>
+        </section>
+        <section class="projet-service my-5">
+          <div class="section-title text-center mt-5">
+            <h2> Mes projets</h2>
+          </div>
+          <div class="container">
+            <div class="row mt-4" id="card-projet">
+            <div class="col-lg-4">
+                <div class="card" style="width: 20rem;">
+                  <img src="assets/image/photo-profil.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+            <div class="col-lg-4">
+                <div class="card" style="width: 20rem;">
+                  <img src="assets/image/photo-profil.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+            <div class="col-lg-4">
+                <div class="card" style="width: 20rem;">
+                  <img src="assets/image/photo-profil.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="skill-section my-5">
+          <div class="section-title text-center mt-5">
+            <h2> Mes competences</h2>
+          </div>
+          <div class="container">
+            <div class="row mt-4">
+              <div class="col-lg-4">
+                <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+                  <div class="card-header">Header</div>
+                  <div class="card-body">
+                    <h5 class="card-title">Dark card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+                  <div class="card-header">Header</div>
+                  <div class="card-body">
+                    <h5 class="card-title">Dark card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+                  <div class="card-header">Header</div>
+                  <div class="card-body">
+                    <h5 class="card-title">Dark card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="portefolio.js"></script>
