@@ -47,6 +47,8 @@ text-decoration: none;
 #header{
     height:80px;
     /* background-color: gray; */
+    background-color: #fff;
+    
     display: flex;
     padding: 0 40px;
     box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
@@ -186,9 +188,17 @@ text-decoration: none;
   }
 
   /* style section home */
+  .home-section{
+    /* background-color: #0c2e8a; */
+    /* padding-top: 100px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* height: 500px; */
+  
+  }
   .home-section #imageprofil, #imageprofil img{
-    height: 280px;
-    width: 280px;
+    height: 320px;
+    width: 320px;
     border-radius: 50%;
     
   }
@@ -223,7 +233,7 @@ text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    /* width: 60%; */
     padding: 2px 10px;
     border-radius: 5px;  
   }
@@ -254,4 +264,172 @@ cursor: pointer;
 /* style section-proejt */
 .projet-service #card-projet img{
   height: 10rem;
+}
+
+/* style pour gerer  l'espace laisse par le navbartop */
+.scrolled-offset {
+  margin-top: 70px;
+}
+
+/* #### bouton back to top */
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: var(--blue-protefolio);
+  width: 40px;
+  height: 40px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: var(--blue-protefolio);
+  color: #fff;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+#skill-logo img{
+  height: 30px;
+}
+
+#card-projet .card-body {
+  /* background-color: var(--blue-protefolio); */
+  height: 10rem;
+}
+#card-projet .card-body h5{
+  color: var(--blue-protefolio);
+}
+#card-projet .card-body .card-text{
+  font-size: 12px;
+}
+#card-projet .card-footer h6{
+font-size: 10px;
+}
+#card-projet .card-footer .bi{
+font-size: 1.5rem;
+color: var(--blue-protefolio);
+}
+#card-projet .card-footer a{
+font-size: 10px;
+text-decoration: none;
+color: var(--blue-protefolio);
+}
+
+
+#skill-logo .card-body{
+  height: 12rem;
+  /* background-color: #0c2e8a; */
+}
+#skill-logo .card-body p{
+  
+  /* height: 10rem; */
+  font-size: 12px;
+  font-weight: bold;
+  /* background-color: #0c2e8a; */
+}
+#skill-logo .col-4, #skill-logo .col-8 {
+ height: 3rem;
+ /* background-color:gold; */
+ display: flex;
+ align-items: center;
+}
+
+#card-service .card-body{
+  height: 14rem;
+}
+
+footer{
+  background-color: var(--blue-protefolio);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width:990px) {
+  .home-link .lincontainer{
+    background-color: var(--blue-protefolio);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 40%; */
+    padding: 2px 10px;
+    border-radius: 5px;  
+  }
+  #skill-logo .card-body{
+    height: 18rem;
+    /* background-color: #0c2e8a; */
+  }
+  #skill-logo .card-body p{
+  
+    /* height: 10rem; */
+    font-size: 8px;
+    font-weight: bold;
+    /* background-color: #0c2e8a; */
+  }
+  
+
+}
+@media (max-width:570px) {
+
+  .home-link .lincontainer{
+    background-color: var(--blue-protefolio);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 60%; */
+    padding: 2px 10px;
+    border-radius: 5px;  
+  }
+  #service-container{
+    /* background-color: red; */
+    /* margin: 0 auto; */
+  }
+ 
+  #projet-container .row, #skill-container .row,  #service-container .row{
+margin-left: 100px;
+  }
+
+}
+@media (max-width:480px) {
+  #projet-container .row, #skill-container .row,  #service-container .row{
+margin-left: 50px;
+  }
+
+}
+@media (max-width:430px) {
+ 
+  #projet-container .row{
+margin-left: 35px;
+  }
+
+}
+@media (max-width:400px) {
+  #skill-container .row,  #service-container .row{
+margin-left: 30px;
+  }
+  #projet-container .row{
+margin-left: 20px;
+  }
+
+}
+@media (max-width:360px) {
+  #projet-container .row, #skill-container .row,  #service-container .row{
+margin-left: 0px;
+  }
+
 }
